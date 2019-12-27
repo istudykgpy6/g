@@ -5,7 +5,7 @@ from django.db import models
 class Author(models.Model):
     authors_name = models.CharField(max_length = 16)
     authors_surname = models.CharField(max_length = 32)
-    authors_age = models.IntegerField(max_length = 3)
+    authors_age = models.IntegerField()
 
 
 class Post(models.Model):
