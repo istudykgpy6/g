@@ -2,5 +2,5 @@ asgiref==3.2.3
 Django
 pip==10.0.1
 pytz==2019.3
-setuptools==39.1.0
+setuptools==65.5.1
 sqlparse==0.3.0
